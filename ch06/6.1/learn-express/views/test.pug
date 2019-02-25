@@ -1,0 +1,27 @@
+extends lay.pug
+
+block content
+  #cwp10(width=500)
+  // <div id="cwp10" width="500"></div>
+  span.express.nodejs
+  // <span class="express nodejs"></span>
+  button(type='submit') 전송
+  // <button type='submit'>전송</button>
+  if varialble
+    div 참입니다.
+  else
+    div 거짓입니다.
+  for i in ['사과', '배', '오렌지']
+    div=i
+  p
+    | 안녕하세요
+    | 여러 줄을 입력합니다.
+    br
+    | 태그도 중간에 넣을 수 있습니다.
+  // <p>안녕하세요 여러 줄을 입력합니다. <br />태그도 중간에 넣을 수 있습니다.
+block script
+  script.
+    var message = 'pug';
+    alert(message)
+    
+  

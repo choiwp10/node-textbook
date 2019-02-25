@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    -const varialble = true
+    title=title + ' ' + title2
+    link(rel="stylesheet", href="/stylesheets/style.css")
+    style.
+      p {
+        color: red;
+      }
+  body
+    include header
+    block content
+    include footer
+    block script
+      script.
+        console.log('h1');
+  
