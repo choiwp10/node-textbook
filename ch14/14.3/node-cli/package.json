@@ -1,0 +1,22 @@
+{
+  "name": "cli",
+  "version": "0.0.1",
+  "description": "nodejs cli program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "cli": "./command.js",
+    "wlt": "./wallet.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.1"
+  }
+}
